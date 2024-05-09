@@ -8,6 +8,7 @@
     "build": "esbuild src/index.ts --bundle --minify --platform=node --outdir=bin --external:esbuild",
     "devPack": "npm run build && npm link"
   },
+  "repository": "https://github.com/haoran965/package2esm",
   "keywords": [
     "convert-esm",
     "convert-dependency"
